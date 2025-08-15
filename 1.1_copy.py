@@ -4,7 +4,7 @@
 
 import copy
 
-# مثال النسخ السطحي
+#  النسخ السطحي
 print(" Shallow Copy Example ")
 data_main = [[6, 2], [3, 4]]
 data_clone = copy.copy(data_main)
@@ -12,11 +12,12 @@ data_clone[0][0] = 99
 print("Original:", data_main)
 print("Shallow:", data_clone)
 
-# مثال النسخ العميق
+#  النسخ العميق
 print("\n Deep Copy Example ")
 data_main2 = [[6, 2], [3, 4]]
 data_full_copy = copy.deepcopy(data_main2)
 data_full_copy[0][0] = 42
 print("Original:", data_main2)
 print("Deep:", data_full_copy)
+
 
